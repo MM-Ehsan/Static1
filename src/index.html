@@ -1,0 +1,269 @@
+<!doctype html>
+<html>
+<head>
+  
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>SurfMax</title>
+</head>
+<body>
+  
+    <header class="lg:px-16 px-4 bg-white flex flex-wrap items-center py-4 shadow-md">
+    <div class="flex-1 flex justify-between items-center">
+        <a href="#" class="text-3xl font-bold font-serif">SurfMax</a>
+    </div>
+
+    <label for="menu-toggle" class="pointer-cursor md:hidden block">
+      <svg class="fill-current text-gray-900"
+        xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+        <title>menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+
+    <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+        <nav>
+            <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+                <li><a class="md:p-4 py-3 px-0 block" href="#">Home</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="#">Products</a></li>
+                <li><a class="md:p-4 py-3 px-0 block" href="#">Blog</a></li>
+                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">About us</a></li>
+                <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact</a></li>
+                <li><span class="text-2xl"><i class="fa-solid fa-cart-shopping"></i></span></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="relative h-screen text-white overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="images/herosurf.jpg" alt="Background Image" class="w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-black opacity-30"></div>
+  </div>
+
+  
+ <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 class="text-5xl font-bold leading-tight mb-4">Choose a board for yourself</h1>
+    <p class="text-lg text-gray-100 mb-8">Duis condimentum felis sit amet turpis pellentesque ultrices. Curabitur mollis ac magna vel eleifend. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#" class="bg-orange-500 text-white hover:bg-orange-400 py-3 px-10 rounded-sm text-lg  transition duration-300 ease-in-out transform hover:scale-100 hover:shadow-lg">Check our boards</a>
+  </div>
+</div>
+
+<div class="font-semibold text-black text-center text-4xl pt-3.5">Surfboards</div>
+
+<section>
+    <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+        <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/productpage_5/m69glpv6/element_693/rwdMode_1/500x440/product_surfboard_1.webp" alt="blog">
+
+                <h1 class="mx-auto mb-8 text-2xl  leading-none font-thin tracking-tighter text-neutral-600 lg:text-2xl">Surfboard 1</h1>
+                            <div class="mt-2">
+                    <a href="#" class="inline-flex items-center mt-4 font-bold text-xl text-gray-600 lg:mb-0 hover:text-neutral-400" title="300 USD"> 300 USD </a>
+                </div>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/productpage_9/m69glpnn/element_693/rwdMode_1/500x440/product_surfboard_4.webp" alt="blog">
+
+                <h1 class="mx-auto mb-8 text-2xl  leading-none font-thin tracking-tighter text-neutral-600 lg:text-2xl">Surfborad 2</h1>
+                              <div class="mt-4">
+                    <a href="#" class="inline-flex items-center mt-4 font-bold text-gray-600 text-xl lg:mb-0 hover:text-neutral-400" title="260 USD"> 260 USD </a>
+                </div>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/productpage_6/m69glqfp/element_693/rwdMode_1/500x440/product_surfboard_2.webp" alt="blog">
+
+                <h1 class=" mx-auto mb-8 text-2xl  leading-none tracking-tighter text-neutral-600 lg:text-2xl font-thin ">Surfboard 3</h1>
+                    <div class="mt-4">
+                    <a href="#" class=" inline-flex  mt-4 font-bold text-xl text-gray-600 lg:mb-0 hover:text-neutral-400" title="400 USD"> 400 USD </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="flex justify-center">
+<button class="bg-orange-500 cursor-pointer font-light text-white hover:bg-orange-400 py-2 px-32 rounded-sm text-lg  transition duration-300 ease-in-out transform hover:scale-100 hover:shadow-lg">SEE ALL</button>
+</div>
+
+<section class="w-full bg-white py-12 px-0>">
+  <div class="grid grid-cols-1 lg:grid-cols-2  max-w-8xl">
+    
+    
+    <div class="overflow-hidden rounded-sm shadow-lg">
+      <img
+        src="https://hfoclq.yourbrand.studio/files/dynamicContent/sites/hfoclq/images/en/webpage_16/m69gliob/element_597/rwdMode_1/960x500/blog_main.webp"
+        alt="Surfboards"
+        class="w-full h-full object-cover"/>
+    </div>
+
+   
+    <div class="px-12 md:px-12 lg:px-36 py-28">
+      <h2 class="text-3xl  mb-4 text-gray-800">Learn more about Surfboards</h2>
+
+      <p class="text-gray-500 mb-6">
+       A surfboard is the essential piece of equipment used in surfing, designed to float on water and glide along the waves. Traditionally made of wood and now often built from lightweight foam and fiberglass, surfboards come in different shapes and sizes to suit various styles of riding. Longboards are stable and easier for beginners, while shortboards are smaller and allow sharp, fast maneuvers for more experienced surfers. The bottom of the board usually has fins to help with control and balance, and a wax coating is applied on top to prevent slipping.
+      </p>
+
+      <a href="#"
+        class="inline-block border border-gray-700 text-gray-700 px-16 py-3 transition duration-300 hover:bg-white hover:text-black hover:font-semibold">READ MORE</a>
+     
+    </div>
+
+  </div>
+</section>
+
+<section class="w-full bg-white py-12 px-0>">
+  <div class="grid grid-cols-1 lg:grid-cols-2  max-w-8xl">
+
+    <div class="px-12 md:px-12 lg:px-36 py-28">
+      <h2 class="text-3xl  mb-4 text-gray-800">Learn more about surfing</h2>
+
+      <p class="text-gray-500 mb-6">
+        Surfing is a thrilling water sport that combines balance, strength, and a connection with the ocean. Surfers ride waves on a board, using skill and timing to catch the moving swell and glide across its surface. While it is often seen as an extreme sport, surfing can also be peaceful and meditative, offering moments of calm between waves and a unique closeness to nature. Originating in ancient Polynesian cultures, it has grown into a global pastime and lifestyle, symbolizing freedom, adventure, and respect for the sea. Whether done on small, gentle waves or towering giants, surfing challenges both the body and the mind.
+      </p>
+
+      <a href="#"
+        class="inline-block border border-gray-700 text-gray-700 px-16 py-3 r  transition duration-300 hover:bg-white hover:text-black hover:font-semibold">READ MORE</a>
+     
+    </div>
+
+    <div class="overflow-hidden rounded-sm shadow-lg">
+      <img
+        src="images/hong-feng-z9rPJs3QLNs-unsplash.jpg"
+        alt="Surfboards"
+        class="w-full h-full object-cover"/>
+    </div>
+
+  </div>
+</section>
+
+<div class="font-semibold text-black text-center text-4xl pt-3.5">Swimming Gear</div>
+
+<section>
+    <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
+        <div class="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://www.thesportstore.pk/image/cache/02-02-2018/07-06-2024/8669830-1-1000x1000.png" alt="blog">
+
+                <h1 class="mx-auto mb-8 text-2xl  leading-none font-thin tracking-tighter text-neutral-600 lg:text-2xl">Goggles 1</h1>
+                            <div class="mt-2">
+                    <a href="#" class="inline-flex items-center mt-4 font-bold text-xl text-gray-600 lg:mb-0 hover:text-neutral-400" title="300 USD"> 300 USD </a>
+                </div>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://img.drz.lazcdn.com/static/pk/p/1fc32d81b8576d490a0506ec2515999d.png_720x720q80.png" alt="blog">
+
+                <h1 class="mx-auto mb-8 text-2xl  leading-none font-thin tracking-tighter text-neutral-600 lg:text-2xl">Goggles 2</h1>
+                              <div class="mt-4">
+                    <a href="#" class="inline-flex items-center mt-4 font-bold text-gray-600 text-xl lg:mb-0 hover:text-neutral-400" title="260 USD"> 260 USD </a>
+                </div>
+            </div>
+            <div class="p-6">
+                <img class="object-cover object-center w-full mb-8 lg:h-72 md:h-44 rounded-lg transition-transform duration-500 ease-in-out hover:scale-105" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsMd3GQjy3OOSXI9OTartjjr4wpUR0g37Yug&s" alt="blog">
+
+                <h1 class=" mx-auto mb-8 text-2xl  leading-none tracking-tighter text-neutral-600 lg:text-2xl font-thin ">Goggles 3</h1>
+                    <div class="mt-4">
+                    <a href="#" class=" inline-flex  mt-4 font-bold text-xl text-gray-600 lg:mb-0 hover:text-neutral-400" title="400 USD"> 400 USD </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="w-full bg-orange-100 py-12 px-4">
+  
+  <h2 class="font-light text-gray-500 text-center text-4xl mb-4">
+    Customer reviews
+  </h2>
+
+  
+  <p class="font-light text-gray-600 text-lg text-center max-w-2xl mx-auto mb-10">
+    Nunc condimentum feugiat tellus sit amet lacinia. Pellentesque laoreet metus sed eros molestie,
+    sit amet aliquet sapien accumsan.<br> Mauris ac diam posuere.
+  </p>
+
+  
+  <div class=" flex sm:flex-col justify-center gap-8 max-w-5xl mx-auto pt-4">
+    
+    
+    <div class="bg-white shadow rounded-lg p-6 text-center flex-1">
+      <img 
+        src="https://randomuser.me/api/portraits/men/32.jpg" 
+        alt="Julio Diaz" 
+        class="w-16 h-16 rounded-full mx-auto mb-4"
+      />
+      <p class="text-gray-600 mb-4">
+        Maecenas malesuada urna in libero vestibulum, eu dapibus arcu lacinia. 
+        Class aptent taciti sociosqu ad litora torquent per conubia nostra interdum sollicitudin.
+      </p>
+      <span class="font-semibold text-orange-500">@Julio_Diaz</span>
+    </div>
+
+    
+    <div class="bg-white shadow rounded-lg p-6 text-center flex-1">
+      <img 
+        src="https://randomuser.me/api/portraits/women/44.jpg" 
+        alt="Lisa Wright" 
+        class="w-16 h-16 rounded-full mx-auto mb-4"/>
+
+      <p class="text-gray-600 mb-4">
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+        Vivamus id congue tortor. Pellentesque dictum et dolor vitae egestas.
+      </p>
+      <span class="font-semibold text-red-600">@Lisa_Wright</span>
+    </div>
+
+  </div>
+</section>
+
+   
+<section class="w-full h-screen  flex flex-col justify-center items-center    bg-orange-500 py-16 px-4">
+  
+  <h2 class="font-light text-white text-center text-4xl md:text-5xl ">
+    Sign up for the newsletter!
+  </h2>
+
+  
+  <p class="font-light text-white text-xl text-center mt-4 mb-10"> Sign up for the newsletter and receive free web design knowledge.
+  </p>
+
+  <div class="w-full max-w-xl flex flex-col items-center">
+    <input 
+      type="email" 
+      placeholder="Your email"
+      class=" w-full px-6 py-3 bg-white text-gray-500 placeholder-gray-400 text-base outline-none"/>
+      <button 
+       type="button" 
+       class="mt-4 px-12 py-3 text-lg bg-orange-700 text-white border border-amber-50 hover:!bg-black transition-colors duration-300">SIGN UP
+      </button>
+  </div>
+
+</section>
+
+<footer class="w-full bg-white  py-8 shadow-md">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-4">
+
+    <p class="text-gray-700 text-base">&copy; 2025 <span class="font-bold font-serif text-2xl">SurfMax</span>. All rights reserved.</p>
+  
+    <div class="flex  space-x-6 text-black text-xl">
+      <a href="#" class=" px-3"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class=" px-3"><i class="fab fa-twitter"></i></a>
+      <a href="#" class=" px-3"><i class="fab fa-instagram"></i></a>
+      <a href="#" class=" px-3"><i class="fa-brands fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+
+  
